@@ -492,6 +492,116 @@ body {
     font-size: 16px;
 }
 
+.phone{
+  justify-content: center;
+ 
+}
+.phone h2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  color: #1c4a64
+  
+}
+
+.phone h3{
+  font-size: 30px ;
+  margin-left: 20px;
+}
+
+
+.Iphone-section {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.phone-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.phone-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.phone-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.phone-card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.price {
+  color:#1c4a64 ;
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.buy-btn {
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #d35400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hidden {
     opacity: 0;
     transform: translateY(100px);
